@@ -2,11 +2,11 @@
 // more on github.com/haggen/requeste.js
 ;(function(root) {
 
-  function Requeste() {
+  function Requeste(method, uri) {
     this.fields = new FormData();
     this.engine = new XMLHttpRequest();
 
-    this.engine.open(this.verb, this.uri, true);
+    this.engine.open(method, uri, true);
   }
 
   Requeste.prototype.on = function(e, fn) {
