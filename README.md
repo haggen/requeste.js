@@ -1,5 +1,5 @@
 # Requeste
-> XMLHttpRequest + FormData wrapper for easy AJAX.
+> XMLHttpRequest + FormData wrapper for easy, embeddable AJAX.
 
 ## API
 
