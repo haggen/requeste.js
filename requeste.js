@@ -1,8 +1,12 @@
-// Requeste v1.0.0 Mon Feb 23 15:05:59 BRT 2015
+// Requeste v1.0.1 Wed Feb 25 11:31:38 BRT 2015
 // more on github.com/haggen/requeste.js
 ;(function(root) {
 
-  function Requeste(method, uri) {
+  'use strict';
+
+  var Requeste;
+
+  Requeste = function(method, uri) {
     this.fields = new FormData();
     this.engine = new XMLHttpRequest();
 
